@@ -22,7 +22,7 @@ let package = Package(
         .package(url: "https://github.com/jpsim/Yams.git", from: "2.0.0"),
         .package(url: "https://github.com/httpswift/swifter.git", .upToNextMajor(from: "1.4.7")),
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.0.2"),
-        .package(url: "https://github.com/apple/swift-package-manager.git", .exact("0.6.0")),
+        .package(url: "https://github.com/apple/swift-package-manager.git", .exact("0.5.0")),
         .package(url: "https://github.com/kylef/Spectre.git", from: "0.9.0")
     ],
     targets: [
